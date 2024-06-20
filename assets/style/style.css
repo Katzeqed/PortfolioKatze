@@ -1,0 +1,498 @@
+@font-face{
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-Regular.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face{
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Manrope' sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+
+}
+
+html{
+    background-color: #0d1117;
+}
+
+.logotype{
+    margin-top: 2%;
+}
+
+
+
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+
+
+
+
+
+.header .container{
+    height: 60px;
+    margin-bottom: 120px;
+}
+
+.kurs .container{
+    display: flex;
+}
+.kurs .container .aboutme .whouare{
+    font-family:'Manrope';
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 35px;
+    color: green;
+}
+
+.kurs .container .aboutme .grind{
+    font-family:'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    color: #951b81;
+   
+}
+
+
+.kurs .container .aboutme .choice{
+    width: 250px;
+    height: 60px;
+    background: none;
+    color: #951b81;
+    border: 1px solid green;
+    font-family:'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 9px;
+    transition: .5s;
+}
+.kurs .container .aboutme .choice:hover{
+    background-color: green;
+    color: white;
+    -webkit-box-shadow: 0px 5px 10px 2px green;
+    -moz-box-shadow: 0px 5px 10px 2px green;
+    box-shadow: 0px 5px 10px 2px green;
+    transition: .3s;
+}
+
+.kurs .container .woman-fitness{
+    width: 612px;
+    height: 500px;
+    background: url(../img/1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.choicing{
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+.choicing .container{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.choicing .container .choice-kurs{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+   text-align: center;
+   color: #951b81;
+}
+
+.choicing .container .kurs{
+    display: flex;
+    margin-top: 85px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+
+
+.choicing .container .kurs .frst .naviki{
+    background: url(../img/2.png);
+    width: 819px;
+    height: 473px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.choicing .container .kurs .frst .yo{
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+color: #951b81;
+}
+    
+aboutmeoicing .container .kurs .scnd{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.choicing .container .kurs .scnd .woman-ras{
+    background: url(../img/3.png);
+    width: 900px;
+    height: 502px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.choicing .container .kurs .scnd .ras{
+    font-family: 'Manrope';
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #951b81;
+}
+.choicing .container .kurs .thd{
+
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    transition: .5s;
+}
+.choicing .container .kurs .thd:hover{
+    -webkit-box-shadow: 0px 5px 10px 2px green ;
+    -moz-box-shadow: 0px 5px 10px 2px  green;
+    box-shadow: 0px 5px 10px 2px  green;
+    scale: 1.1;
+    transition: .3s;
+}
+.choicing .container .kurs .thd .woman-hiit{
+    background: url(../img/4.png);
+    width: 900px;
+    height: 502px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.choicing .container .kurs .thd .hiit{
+    font-family: 'Manrope';
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #951b81;
+}
+
+
+.about{
+    background-color: #0d1117;
+    margin-top: 155px;
+    padding-top: 150px;
+    padding-bottom: 140px;
+}
+
+.about .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.abottxtbtn{
+    display: flex;
+    flex-direction: column;
+}
+.about .container .abottxtbtn h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: green;
+}
+.about .container .abottxtbtn h3{
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 500;
+    color: #951b81;
+}
+
+.about .container .abottxtbtn .joke{
+    font-family: 'Manrope';
+    font-size: 60px;
+    font-weight: 500;
+    color: #951b81;
+}
+.about .container .abottxtbtn .more{
+    width: 252px;
+    height: 58px;
+    background-color: green;
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid #951b81;
+    border-radius: 9px;
+    transition: .5s;
+    margin-top: 60px;
+    align-self: center;
+    justify-self: end;
+}
+.about .container .abottxtbtn .more:hover{
+    background-color: green;
+    color: white;
+    -webkit-box-shadow: 0px 5px 10px 2px #951b81;
+    -moz-box-shadow: 0px 5px 10px 2px #951b81;
+    box-shadow: 0px 5px 10px 2px #951b81;
+    transition: .3s;
+}
+.about .container .aboutimg{
+    display: flex;
+   
+}
+.about .container .aboutimg .positive{
+    margin-top: 40px;
+    background: url(../img/10.jpg);
+    width: 560px;
+    height: 402px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+}
+
+.howwork{
+    margin-top: 150px;
+}
+.howwork .container{
+    display: flex;
+    flex-direction: column;
+}
+.howwork .container .big{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    color: green;
+}
+.howwork .container .work{
+    display: flex;
+    justify-content: space-between;
+}
+
+.howwork .container .work .n1 h2{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #951b81;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 9px;
+    width: 60px;
+    text-align: center;
+}
+.howwork .container .work .n1 h3{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: green;
+}
+.howwork .container .work .n1 h4{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #951b81;
+}
+
+.personal{
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+.personal .container{
+    background-color: #0d1117;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.personal .container .persobalpl{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #951b81;
+}
+.personal .container .opis{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 40px;
+    color: green;
+}
+.personal .container .nametel{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100%/2.2);
+    margin-bottom: 15px;
+}
+.personal .container .nametel h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #951b81;
+}
+.personal .container .nametel input{
+    width: 250px;
+    height: 54px;
+    background: none;
+    border-radius: 9px;
+    border: 1px solid green;
+    text-indent: 10px;
+}
+.personal .container .em{
+    width: calc(100%/2.2);
+}
+.personal .container .em .mail{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #951b81;
+}
+.personal .container .em input{
+    width: 100%;
+    height: 54px;
+    background: none;
+    border-radius: 9px;
+    border: 1px solid green;
+    text-indent: 10px;
+}
+.personal .container .our{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    width: calc(100%/2.2);
+    margin-top: 25px;
+    color: #951b81;
+}
+.personal .container .check{
+    display: flex;
+    width: calc(100%/2.2);
+    margin-bottom: 30px;
+    align-items: center;
+}
+.personal .container .check label{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.personal .container .check input{
+    margin-left: 0;
+    margin-right: 0;
+    height: 15px;
+    width: 15px;
+}
+
+.personal label{
+    color: green;
+}
+.personal .container .check .frst{
+    display: flex;
+    align-items: center;
+}
+
+.personal .container .check .scnd{
+    display: flex;
+    align-items: center;
+    
+}
+.personal .container .check .thd{
+    display: flex;
+    align-items: center;
+}
+
+.personal .container .agree{
+    width: calc(100%/2.2);
+}
+.personal .container .agree input{
+    margin-left: 0;
+    height: 15px;
+    width: 15px;
+}
+.personal .container .agree label{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.personal .container .agree{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.personal .container .continue{
+    width: 252px;
+    height: 58px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    color: #951b81;
+    background: none;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 9px;
+    transition: .5s;
+}
+.personal .container .continue:hover{
+    background-color: green;
+    color: white;
+    transition: .5s;
+}
+
